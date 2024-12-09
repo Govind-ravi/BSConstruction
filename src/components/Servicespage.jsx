@@ -89,16 +89,16 @@ function Servicespage() {
                 </div>
               )
           )}
-            {!isViewMore && (
-          <div className="h-[300px] w-full bg-goldTheme flex items-center justify-center">
+          {!isViewMore && (
+            <div className="h-[300px] w-full bg-goldTheme flex items-center justify-center">
               <p
                 onClick={() => setIsViewMore(true)}
                 className="text-lg hover:underline cursor-pointer"
               >
                 View More+
               </p>
-          </div>
-            )}
+            </div>
+          )}
         </div>
       </div>
     </>
