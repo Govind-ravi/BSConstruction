@@ -32,7 +32,7 @@ function Footer() {
       </div>
       <hr className="h-[2px] bg-darkgray mx-2 xs:mx-8 my-4 sm:my-8" />
       <div className="mx-12 mb-8 flex flex-col gap-4 items-center sm:flow-row justify-between">
-        <p>All rights reserved © Botnomics {new Date().getFullYear()}</p>
+        <p className="text-center">All rights reserved © Botnomics {new Date().getFullYear()}</p>
         <div className="flex gap-6">
           <div className="p-1 text-xl rounded-full border-[1px] border-black">
             <AiFillInstagram />
